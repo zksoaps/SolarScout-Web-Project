@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarScout - Estimate Your Solar Savings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SolarScout</h1>
+            <p>Estimate Your Solar Panel Cost and Savings Instantly</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Save with Solar Today!</h2>
+            <p>Enter your address below to calculate the cost and savings of installing solar panels on your home.</p>
+            <form id="solar-form">
+                <input type="text" id="address" placeholder="Enter your address" required>
+                <button type="submit" class="estimate-btn">Get Estimate</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature" data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">
+                <h3>Accurate Estimates</h3>
+                <p>Get real-time cost and savings estimates based on your location and energy needs.</p>
+            </div>
+            <div class="feature" data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">
+                <h3>Eco-Friendly</h3>
+                <p>Switch to clean energy and reduce your carbon footprint.</p>
+            </div>
+            <div class="feature" data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">
+                <h3>Save Money</h3>
+                <p>Discover how much you can save with solar power over time.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SolarScout. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
